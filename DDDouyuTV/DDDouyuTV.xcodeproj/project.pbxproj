@@ -70,6 +70,7 @@
 		1820BD801E691768001B55CC /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				1899E05B1E690818006B55CF /* Main.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -109,7 +110,6 @@
 			children = (
 				1820BD7C1E691768001B55CC /* Classes */,
 				1899E0571E690818006B55CF /* AppDelegate.swift */,
-				1899E05B1E690818006B55CF /* Main.storyboard */,
 				1899E05E1E690818006B55CF /* Assets.xcassets */,
 				1899E0601E690818006B55CF /* LaunchScreen.storyboard */,
 				1899E0631E690818006B55CF /* Info.plist */,
@@ -202,6 +202,7 @@
 				1899E05C1E690818006B55CF /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		1899E0601E690818006B55CF /* LaunchScreen.storyboard */ = {
