@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1820BD911E694DD0001B55CC /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1820BD901E694DD0001B55CC /* Home.storyboard */; };
-		1820BD931E694DD7001B55CC /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1820BD921E694DD7001B55CC /* Follow.storyboard */; };
-		1820BD961E694E3D001B55CC /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1820BD941E694E3D001B55CC /* Live.storyboard */; };
-		1820BD971E694E3D001B55CC /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1820BD951E694E3D001B55CC /* Profile.storyboard */; };
+		1820BD991E6950C2001B55CC /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1820BD981E6950C2001B55CC /* Home.storyboard */; };
+		1820BD9B1E6950C7001B55CC /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1820BD9A1E6950C7001B55CC /* Live.storyboard */; };
+		1820BD9D1E6950CB001B55CC /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1820BD9C1E6950CB001B55CC /* Follow.storyboard */; };
+		1820BD9F1E6950D1001B55CC /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1820BD9E1E6950D1001B55CC /* Profile.storyboard */; };
 		1899E0581E690818006B55CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1899E0571E690818006B55CF /* AppDelegate.swift */; };
 		1899E05D1E690818006B55CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1899E05B1E690818006B55CF /* Main.storyboard */; };
 		1899E05F1E690818006B55CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1899E05E1E690818006B55CF /* Assets.xcassets */; };
@@ -18,10 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1820BD901E694DD0001B55CC /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
-		1820BD921E694DD7001B55CC /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
-		1820BD941E694E3D001B55CC /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
-		1820BD951E694E3D001B55CC /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		1820BD981E6950C2001B55CC /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		1820BD9A1E6950C7001B55CC /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		1820BD9C1E6950CB001B55CC /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
+		1820BD9E1E6950D1001B55CC /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		1899E0541E690818006B55CF /* DDDouyuTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDDouyuTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1899E0571E690818006B55CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1899E05C1E690818006B55CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,6 +57,7 @@
 		1820BD7D1E691768001B55CC /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				1820BD9C1E6950CB001B55CC /* Follow.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -64,6 +65,7 @@
 		1820BD7E1E691768001B55CC /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				1820BD981E6950C2001B55CC /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -71,6 +73,7 @@
 		1820BD7F1E691768001B55CC /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				1820BD9A1E6950C7001B55CC /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -79,10 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				1899E05B1E690818006B55CF /* Main.storyboard */,
-				1820BD941E694E3D001B55CC /* Live.storyboard */,
-				1820BD951E694E3D001B55CC /* Profile.storyboard */,
-				1820BD901E694DD0001B55CC /* Home.storyboard */,
-				1820BD921E694DD7001B55CC /* Follow.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -90,6 +89,7 @@
 		1820BD811E691768001B55CC /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				1820BD9E1E6950D1001B55CC /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -190,11 +190,11 @@
 			files = (
 				1899E0621E690818006B55CF /* LaunchScreen.storyboard in Resources */,
 				1899E05F1E690818006B55CF /* Assets.xcassets in Resources */,
-				1820BD961E694E3D001B55CC /* Live.storyboard in Resources */,
 				1899E05D1E690818006B55CF /* Main.storyboard in Resources */,
-				1820BD911E694DD0001B55CC /* Home.storyboard in Resources */,
-				1820BD971E694E3D001B55CC /* Profile.storyboard in Resources */,
-				1820BD931E694DD7001B55CC /* Follow.storyboard in Resources */,
+				1820BD9B1E6950C7001B55CC /* Live.storyboard in Resources */,
+				1820BD991E6950C2001B55CC /* Home.storyboard in Resources */,
+				1820BD9F1E6950D1001B55CC /* Profile.storyboard in Resources */,
+				1820BD9D1E6950CB001B55CC /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,7 +329,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DDDouyuTV/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.woody.DDDouyuTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -343,7 +343,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = DDDouyuTV/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.woody.DDDouyuTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
